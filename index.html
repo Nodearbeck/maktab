@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktab Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<aside class="sidebar">
+    <ul class="menu">
+        <li><a class="list" href="#" data-page="home">Bosh Sahifa</a></li>
+        <li><a class="list" href="#" data-page="teachers">O‘qituvchilar</a></li>
+        <li><a class="list" href="#" data-page="pupils">O‘quvchilar</a></li>
+        <li><a class="list" href="#" data-page="staff">Xodimlar</a></li>
+        <li><a class="list" href="#" data-page="subjects">Fanlar</a></li>
+        <li><a class="list" href="#" data-page="rooms">Xonalar</a></li>
+        <li><a class="list" href="#" data-page="schedules">Dars jadvallari</a></li>
+    </ul>
+</aside>
+
+<div class="main-layout">
+    <header class="header">
+        <button id="toggleBtn"><i class="fas fa-bars"></i></button>
+        <button id="darkModeBtn"> <i class="fas fa-moon"></i></button>
+    </header>
+
+    <div id="content-area"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
